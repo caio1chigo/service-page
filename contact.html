@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#062f6f" />
+
+  <meta
+    name="description"
+    content="Contact BlueLine Plumbing for repairs, leaks, clogs, water heater service, and other residential or small-business plumbing needs in Framingham & MetroWest, MA."
+  />
+
+  <title>Contact Us | BlueLine Plumbing | Framingham &amp; MetroWest, MA</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="page-loader" id="page-loader" aria-hidden="true">
+    <div class="loader-mark">
+      <span class="loader-drop">●</span>
+      <span>BLUELINE</span>
+      <small>PLUMBING</small>
+    </div>
+  </div>
+
+  <!-- Top information bar -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-contact">
+        <a href="tel:+15085550148">
+          <span aria-hidden="true">☎</span>
+          <span>(508) 555-0148</span>
+        </a>
+
+        <a href="mailto:hello@bluelineplumbingma.com">
+          <span aria-hidden="true">✉</span>
+          <span>hello@bluelineplumbingma.com</span>
+        </a>
+
+        <span class="topbar-hours">
+          <span aria-hidden="true">◷</span>
+          Mon–Sat, 8:00 AM–6:00 PM
+        </span>
+      </div>
+
+      <p class="topbar-note">Serving Framingham &amp; MetroWest, MA</p>
+    </div>
+  </div>
+
+  <!-- Main navigation -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="BlueLine Plumbing home">
+        <span class="brand-icon" aria-hidden="true">●</span>
+
+        <span class="brand-copy">
+          <strong>BlueLine</strong>
+          <small>Plumbing</small>
+        </span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#about">About Us</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#process">Process</a>
+        <a href="index.html#why-us">Why Choose Us</a>
+        <a href="index.html#faq">FAQ</a>
+        <a class="is-active" href="contact.html">Contact</a>
+      </nav>
+
+      <a class="header-cta" href="#form">
+        Get a Quote
+        <span aria-hidden="true">→</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation">
+      <a href="index.html#home">Home</a>
+      <a href="index.html#about">About Us</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#process">Process</a>
+      <a href="index.html#why-us">Why Choose Us</a>
+      <a href="index.html#faq">FAQ</a>
+      <a class="is-active" href="contact.html">Contact</a>
+
+      <a class="mobile-quote" href="#form">
+        Get a Quote
+        <span aria-hidden="true">→</span>
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Contact hero -->
+    <section class="contact-hero">
+      <div class="contact-hero-background" aria-hidden="true"></div>
+      <div class="contact-hero-overlay" aria-hidden="true"></div>
+
+      <div class="container contact-hero-inner">
+        <div class="contact-hero-copy reveal">
+          <p class="eyebrow light">Get in Touch</p>
+
+          <h1>
+            Tell Us About Your
+            <span>Plumbing Issue.</span>
+          </h1>
+
+          <p>
+            Fill out the form below or call us directly. We respond to all
+            inquiries during regular business hours.
+          </p>
+
+          <a class="button button-yellow" href="tel:+15085550148">
+            Call Now
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact form -->
+    <section class="contact-form-section section" id="form">
+      <div class="container contact-form-grid">
+        <div class="contact-form-card reveal">
+          <h2>Request a Quote</h2>
+
+          <p>
+            Share a few details about your plumbing issue. We will get back to
+            you with next steps and pricing information.
+          </p>
+
+          <form
+           action="https://formspree.io/f/xppwenpr"
+           method="POST"
+           class="contact-form"
+           >act-form"
+          >
+            <div class="form-row">
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="Jane Doe"
+              />
+            </div>
+
+            <div class="form-row">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="jane@example.com"
+              />
+            </div>
+
+            <div class="form-row">
+              <label for="phone">Phone Number</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="(508) 555-0148"
+              />
+            </div>
+
+            <div class="form-row">
+              <label for="service">Service Needed</label>
+              <select id="service" name="service">
+                <option value="" disabled selected>Select a service</option>
+                <option>Leak Detection</option>
+                <option>Drain Cleaning</option>
+                <option>Pipe Repair</option>
+                <option>Water Heater Service</option>
+                <option>Toilet Repair</option>
+                <option>Bathroom Plumbing</option>
+                <option>Other</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <label for="message">Describe Your Issue</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+                placeholder="I have a leak under my kitchen sink..."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="button button-blue button-full">
+              Send Request
+              <span aria-hidden="true">→</span>
+            </button>
+
+            <p class="form-note">
+              By submitting this form, you agree to our
+              <a href="privacy.html">Privacy Policy</a>.
+            </p>
+          </form>
+        </div>
+
+        <aside class="contact-info reveal">
+          <div>
+            <span class="contact-info-icon" aria-hidden="true">☎</span>
+            <div>
+              <strong>Call Us</strong>
+              <a href="tel:+15085550148">(508) 555-0148</a>
+            </div>
+          </div>
+
+          <div>
+            <span class="contact-info-icon" aria-hidden="true">✉</span>
+            <div>
+              <strong>Email Us</strong>
+              <a href="mailto:hello@bluelineplumbingma.com">hello@bluelineplumbingma.com</a>
+            </div>
+          </div>
+
+          <div>
+            <span class="contact-info-icon" aria-hidden="true">⌖</span>
+            <div>
+              <strong>Service Area</strong>
+              <p>Framingham, Natick, Marlborough, Ashland, Sudbury, and nearby MetroWest communities.</p>
+            </div>
+          </div>
+
+          <div>
+            <span class="contact-info-icon" aria-hidden="true">◷</span>
+            <div>
+              <strong>Business Hours</strong>
+              <p>Mon–Sat: 8:00 AM–6:00 PM</p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Map / service area -->
+    <section class="service-area section">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow blue">Service Area</p>
+
+          <h2>
+            Proudly Serving
+            <span>MetroWest, MA.</span>
+          </h2>
+
+          <p>
+            From emergency repairs to planned installations, we provide reliable
+            plumbing support across the region.
+          </p>
+        </div>
+
+        <div class="service-area-grid reveal">
+          <div class="service-area-list">
+            <ul>
+              <li>Framingham</li>
+              <li>Natick</li>
+              <li>Marlborough</li>
+              <li>Ashland</li>
+              <li>Sudbury</li>
+              <li>Wayland</li>
+              <li>Holliston</li>
+              <li>Medway</li>
+              <li>Millis</li>
+              <li>Sherborn</li>
+            </ul>
+          </div>
+
+          <div class="service-area-map image-placeholder">
+            <img
+              src="src/service-area-map.jpg"
+              alt="Map showing BlueLine Plumbing service area in MetroWest Massachusetts"
+              loading="lazy"
+            />
+            <span>SERVICE AREA MAP</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand-block">
+        <a class="brand footer-brand" href="index.html">
+          <span class="brand-icon" aria-hidden="true">●</span>
+
+          <span class="brand-copy">
+            <strong>BlueLine</strong>
+            <small>Plumbing</small>
+          </span>
+        </a>
+
+        <p>
+          Reliable plumbing support for homeowners, landlords, and small businesses
+          across Framingham and MetroWest.
+        </p>
+
+        <p class="demo-notice">
+          Portfolio concept website. Business details are for demonstration only.
+        </p>
+      </div>
+
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+
+        <a href="index.html#home">Home</a>
+        <a href="index.html#about">About Us</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#process">Process</a>
+        <a href="index.html#faq">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Our Services</h3>
+
+        <a href="index.html#services">Leak Detection</a>
+        <a href="index.html#services">Drain Cleaning</a>
+        <a href="index.html#services">Pipe Repair</a>
+        <a href="index.html#services">Water Heater Service</a>
+        <a href="index.html#services">Toilet Repair</a>
+        <a href="index.html#services">Bathroom Plumbing</a>
+      </div>
+
+      <div class="footer-column footer-contact">
+        <h3>Contact Us</h3>
+
+        <a href="tel:+15085550148">(508) 555-0148</a>
+        <a href="mailto:hello@bluelineplumbingma.com">
+          hello@bluelineplumbingma.com
+        </a>
+
+        <p>
+          Framingham, MA<br />
+          Serving MetroWest communities
+        </p>
+
+        <p>Mon–Sat: 8:00 AM–6:00 PM</p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> BlueLine Plumbing. Portfolio demonstration concept.</p>
+
+      <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">
+        ↑
+      </button>
+    </div>
+  </footer>
+
+  <a
+    class="mobile-call"
+    href="tel:+15085550148"
+    aria-label="Call BlueLine Plumbing"
+  >
+    <span aria-hidden="true">☎</span>
+    <span>Call Now</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
